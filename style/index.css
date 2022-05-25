@@ -1,1 +1,40 @@
 /* Add CSS styling here */
+body {
+    background: url('https://i.pinimg.com/originals/99/6c/8a/996c8ae3bb79247166f8c4b524749867.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.2;
+} 
+
+a {
+  font-size: 24px;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 15px;
+  display:flex;
+  flex-grow: 10;
+  text-align: center;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+
+.container{
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  gap: 20px;
+}
